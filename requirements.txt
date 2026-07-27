@@ -1,0 +1,6 @@
+# Core dependencies for the crypto arbitrage bot.
+# Pinned to major versions known to work; adjust as needed.
+
+ccxt>=4.2.0            # unified API for CEX (Bybit, KuCoin, OKX, Gate, Bitget)
+web3>=6.15.0           # on-chain interaction for DEX strategies
+python-dotenv>=1.0.0   # loads API keys/secrets from .env
